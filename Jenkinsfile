@@ -11,7 +11,7 @@ pipeline{
         }
         stage ("email"){
            steps{
-               sh 'echo "${var_email}"
+               echo "${var_email}"
            } 
         }
     }
